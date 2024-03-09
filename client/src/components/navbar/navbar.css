@@ -1,0 +1,44 @@
+.navbar{
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+
+.logo{
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.navButton{
+  font-size: 1rem;
+  margin-left: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: black;
+  background: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+}
+
+.navButton:hover{
+  background: linear-gradient(to top, #f6f3ff 0%, #cd9cf2 100%);
+}
+
+.navButtonname{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  color:inherit
+}
